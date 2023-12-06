@@ -1,0 +1,11 @@
+type Task{
+    id: ID!,
+    name: String,
+    status: TaskStatus
+}
+
+enum TaskStatus{
+    OPEN,
+    IN_PROGRESS,
+    COMPLETED
+}

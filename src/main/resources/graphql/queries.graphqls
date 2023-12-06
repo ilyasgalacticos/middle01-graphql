@@ -1,0 +1,5 @@
+type Query{
+    findAllUsers: [User]
+    findUserById(id: ID!): User
+    findAllTasks: [Task]
+}
